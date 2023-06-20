@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@300&family=Prompt:wght@100&family=Titillium+Web&family=Urbanist:wght@100&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+header{
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+}
+main{
+    background-color: #1f1d1d;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+
+}
+main div{
+    width: 48%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main div section{
+    height: 100%;
+    width: 65%;
+    background-color: rgb(93, 21, 141);
+    border-radius: 20px;
+    
+}
+section h1{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Montserrat';
+}
+section h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat';
+}
+section input{
+    border-radius: 5px;
+    outline: none;
+    padding: 5px 0;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    color: #fff;
+    background-color: #1f1d1d;
+    width: 90%;
+}
+form div{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.span-requerid{
+    display: none;
+    color: red;
+}
+form div input, span{
+    margin-left: 60px ;
+    margin-bottom: 5px;
+}
+main img{
+    width: 45%;
+    height: 100%;
+}

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@300&family=Prompt:wght@100&family=Titillium+Web&family=Urbanist:wght@100&display=swap');
+*{
+    margin: 0;
+    border: 0;
+}
+body{
+    background-color: black;
+}
+header{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+header div.titulo{
+    width: 20%;
+}
+header div.botoes-cabecalho{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+header div.acessar{
+    width: 20%;
+}
+header div.acessar input{
+    background-color: blueviolet;
+    height: 60%;
+    border-radius: 20px;
+}
+header h1{
+    color: blueviolet;
+    font-size: 30pt;
+}
+header input{
+    margin: 10px 30px;
+    border-radius: 20px;
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+}
+header div{
+    width: 100%;
+    height: 100%;
+}
+section main{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    border-radius: 20px;
+    background-color: #1f1d1d;
+}
+section main > div{
+    width: 48%;
+    height: 100%;
+    position: relative;
+    border-radius: 20px;
+}
+section div img{
+    background-color: #1f1d1d;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+section div h1{
+        color: blueviolet;
+        font-size: 40pt;
+        font-family: 'Montserrat';
+        background-color: #1f1d1d;
+        padding: 20px
+    }
+section div.parte1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+section div.titulo-img1{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

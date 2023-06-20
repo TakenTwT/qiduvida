@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    border: 0;
+}
+body{
+    background-color: black;
+
+}
+header{
+    background-color: rgb(51, 48, 48);
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    position: sticky;
+
+}
+header h1{
+    font-size: 30pt;
+    color: #6959CD;
+    justify-content: right;
+    padding: 50px 20px;
+    width: 20%;
+    margin: 20px;
+
+}
+header div.pesquisa{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    background-color: rgb(51, 48, 48);
+}
+header div.entrarconta{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    background-color: rgb(51, 48, 48);
+}
+header input.barra{
+    display: flex;
+    margin: 10px;
+    border-radius: 20px;
+    outline: none;
+    cursor: auto;
+    width: 90%;
+}
+.entrarconta{
+    display: flex;
+    justify-content: center;
+}
+.entrarconta button{
+    background-color: #6959CD;
+    width: 20%;
+    height: 40%;
+    border-radius: 20px;
+}
+div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    border-radius: 20px;
+}
+div > div{
+    background-color: #1C1C1C;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+div > div > input{
+    margin: 40px;
+    width: 25%;
+    height: 40%;
+    background-color: black;
+    color: #fff;
+    border-radius: 20px;
+}
+section{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ } section div.t{
+    height: 80%;
+ }
+
+section input{
+    background-color: #00FF30;
+    width: 20%;
+    height: 70%;
+    margin: 20px;
+    border-radius: 20px;
+}
+section h1{
+    color: #fff;
+    padding: 10px;
+    font-size: 20pt;
+    text-transform: uppercase;
+}
+footer{
+    width: 100%;
+    background-color: rgb(37, 36, 36);
+    height: 20vh;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

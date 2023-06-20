@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mais rapaz, cadastra logo</title>
+    <link rel="stylesheet" href="css/cadastro.css">
+    <script src="js/cadastro.js" defer></script>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <img src="img/cadastro-img.svg" alt="ajdkjah">
+        <div>
+            <section>
+                <h1>Cadastre-se</h1>
+                <h2>Não perca tempo!</h2>
+                <br><br><br>
+                <form action="page.html" id="form">
+                            <div>
+                                <input  class="requerid" type="text" placeholder="Nome" id="name" oninput="namev()">
+                                <span class="span-requerid">O nome deve conter no mínimo, 3 caracateres</span>
+                            </div>
+                            <div>
+                                <input class="requerid" type="text" value="" placeholder="Sobrenome" oninput="sobrenomev()">
+                                <span class="span-requerid">O sobrenome inválido</span>
+
+                            </div>
+                            <div>
+
+                                <input class="requerid" type="email" value="" placeholder="Email" >
+                                <span class="span-requerid">E-mail incorreto!</span>
+
+                            </div>
+                            <div>
+
+                                <input class="requerid" type="text" value="" placeholder="CPF" oninput="cpf()">
+                                <span class="span-requerid">CPF inválido</span>
+
+                                
+                            </div>
+                            <div>
+                                <input class="requerid" type="password" value="" placeholder="Senha" >
+                                <span class="span-requerid">a senha deve conter no mínimo, 8 caracateres</span>
+
+                            </div>
+                            <div>
+                                <input class="requerid" type="password" value="" placeholder="Confirmar senha">
+                                <span class="span-requerid">A senha não é a mesma</span>
+
+                            </div>
+                            <input type="submit" value="Cadastrar" id="submit" >
+                </form>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

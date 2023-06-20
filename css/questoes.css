@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Prompt:wght@100&family=Titillium+Web&family=Urbanist:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 20vh;
+    background-color: black;
+    width: 100%;
+    border-radius: 5px;
+}
+.h1{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+section{
+    background-color: 	#2e2b2b;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+footer{
+    height: 20vh;
+    background-color: rgb(29, 15, 15);
+}
+section > main{
+    width: 30vw;
+    height: 450px;
+    background-color: #45087e;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+
+}
+section input{
+    background-color: rgb(12, 189, 12);
+    color: aliceblue;
+    width: 60%;
+    height: 40%;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
+main div.h1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+section h1{
+    color: antiquewhite;
+    padding: 20px 0;
+    font-family: 'Urbanist';
+}
+section input.todos{
+    background-color: black;
+}
+form{
+    display: block;
+}

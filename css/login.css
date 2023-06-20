@@ -1,0 +1,45 @@
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-image: url('fundo.png');
+    background-size: cover;
+}
+
+.login{
+    padding: 30px;
+    background-color: #1C1C1C;
+    width: 500px;
+    height: 450px;
+    border-radius: 20px;
+    margin: 50px 0;
+    margin-bottom: 100px;
+    color: aliceblue;
+
+}
+h1{
+    color:#6959CD;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.a{
+    border-radius: 20px;
+    margin: 5px 0;
+
+}
+.enviar{
+    border-radius: 20px;
+    width: 250px;
+    height: 60px;
+    background-color: #6959CD;
+    color: #fff;
+    margin: 120px 0;
+    margin-right: 10px;
+
+}
+.semconta{
+    border-radius: 20px;
+    background-color: #6959CD;
+    color: #fff;
+    width: 250px;
+    height: 60px;
+}
